@@ -1,0 +1,10 @@
+.open-link {
+    background-color: #E4C59E;
+    width: 185px;
+    height: 50px;
+    border-radius: 0.5rem;
+}
+
+.active-submenu {
+    color: #E4C59E;
+}

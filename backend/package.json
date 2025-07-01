@@ -1,0 +1,32 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "data-api-product-catalog",
+  "type": "module",
+  "main": "src/servers.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "start": "node src/servers.js"
+  },
+  "author": "akbar-vabiansyah",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.6.0",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.2",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.7",
+    "@babel/preset-env": "^7.27.2",
+    "@types/express": "^5.0.1",
+    "@types/supertest": "^6.0.3",
+    "babel-jest": "^29.7.0",
+    "jest": "^30.0.3",
+    "supertest": "^7.1.0"
+  }
+}
